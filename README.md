@@ -325,7 +325,7 @@ This is a collection of research papers for **Self-Correcting Large Language Mod
    
     *Yao Fu, Hao Peng, Tushar Khot, Mirella Lapata*
 
-4. **PRD: Peer Rank and Discussion Improve Large Language Model-based Evaluations.** arxiv, 2023. [paper](https://arxiv.org/pdf/2307.02762.pdf)
+4. **PRD: Peer Rank and Discussion Improve Large Language Model-based Evaluations.**  arxiv, 2023. [paper](https://arxiv.org/pdf/2307.02762.pdf)
    
    *Ruosen Li, Teerth Patel, Xinya Du*
 
