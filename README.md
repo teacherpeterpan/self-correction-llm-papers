@@ -143,7 +143,7 @@ This is a collection of research papers for **Self-Correcting Large Language Mod
     
     *Hunter Lightman, Vineet Kosaraju, Yura Burda, Harri Edwards, Bowen Baker, Teddy Lee, Jan Leike, John Schulman, Ilya Sutskever, Karl Cobbe* 
 
-2. **Diffusion-LM Improves Controllable Text Generation.** arxiv, 2022. [paper](https://arxiv.org/pdf/2205.14217.pdf)
+2. **Diffusion-LM Improves Controllable Text Generation.** Advances in Neural Information Processing Systems (NeurIPS), 2022. [paper](https://arxiv.org/pdf/2205.14217.pdf)
     
     *Xiang Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, Tatsunori B. Hashimoto*
 
