@@ -332,9 +332,14 @@ This is a collection of research papers for **Self-Correcting Large Language Mod
 ## Contribution
 ### Contributors
 
+<!--
 <a href="https://github.com/teacherpeterpan/self-correction-llm-papers/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=teacherpeterpan/self-correction-llm-papers" />
 </a>
+-->
+
+[<img src="https://github.com/teacherpeterpan.png" width="60px;"/><br /><sub><a href="https://github.com/teacherpeterpan">Liangming Pan</a></sub>](https://github.com/teacherpeterpan/self-correction-llm-papers)
+[<img src="https://github.com/XinyuanLu00.png" width="60px;"/><br /><sub><a href="https://github.com/XinyuanLu00">Xinyuan Lu</a></sub>](https://github.com/XinyuanLu00/self-correction-llm-papers)
 
 ### Acknowledgement
 -  There are cases where we miss important works in this field, please contribute to this repo! Thanks for your efforts in advance.
