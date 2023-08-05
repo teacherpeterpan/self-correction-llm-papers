@@ -12,8 +12,8 @@ This is a collection of research papers for **Self-Correcting Large Language Mod
 <table>
 <tr><td colspan="2"><a href="#training-time-correction">1. Training-Time Correction</a></td></tr>
 <tr>
-    <td>&emsp;<a href="#fine-tuning-strategy">1.1 Fine-tuning Strategy</a></td>
-    <td>&ensp;<a href="#rlhf-strategy">1.2 RLHF Strategy</a></td>
+    <td>&emsp;<a href="#rlhf-strategy">1.1 RLHF Strategy</a></td>
+    <td>&ensp;<a href="#fine-tuning-strategy">1.2 Fine-tuning Strategy</a></td>
 <tr>
     <td>&emsp;<a href="#self-training-strategy">1.3 Self-Training Strategy</a></td>
     
@@ -24,7 +24,7 @@ This is a collection of research papers for **Self-Correcting Large Language Mod
 </tr>
 <tr><td colspan="2"><a href="#post-hoc-correction">3. Post-hoc Correction</a></td></tr>
 <tr>
-    <td>&emsp;<a href="#post-hoc-strategy">3.1 Post-hoc Strategy</a></td>
+    <td>&emsp;<a href="#self-refine-strategy">3.1 Self-Refine Strategy</a></td>
     <td>&ensp;<a href="#external-feedback-strategy">3.2 External Feedback Strategy</a></td>
 
 <tr>
@@ -33,6 +33,24 @@ This is a collection of research papers for **Self-Correcting Large Language Mod
 </table>
 
 ## [Training-Time Correction](#content)
+
+### [RLHF Strategy](#rlhf-strategy)
+
+1. **Training Language Models to Follow Instructions with Human Feedback.** Advances in Neural Information Processing Systems (NeurIPS), 2022. [paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/b1efde53be364a73914f58805a001731-Paper-Conference.pdf)
+    
+    *Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul F. Christiano, Jan Leike, Ryan Lowe* 
+
+2. **Fine-Grained Human Feedback Gives Better Rewards for Language Model Training.** arxiv, 2023. [paper](https://arxiv.org/pdf/2306.01693.pdf)
+    
+    *Zeqiu Wu, Yushi Hu, Weijia Shi, Nouha Dziri, Alane Suhr, Prithviraj Ammanabrolu, Noah A. Smith, Mari Ostendorf, Hannaneh Hajishirzi* 
+
+3. **Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback.** arxiv, 2022. [paper](https://arxiv.org/pdf/2204.05862.pdf)
+
+    *Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, Saurav Kadavath, Jackson Kernion, Tom Conerly, Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt, Neel Nanda, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCandlish, Chris Olah, Ben Mann, Jared Kaplan*
+
+4. **Improving Alignment of Dialogue Agents via Targeted Human Judgments.** arxiv, 2022. [paper](https://arxiv.org/pdf/2209.14375.pdf)
+    
+    *Amelia Glaese, Nat McAleese, Maja Trębacz, John Aslanides, Vlad Firoiu, Timo Ewalds, Maribeth Rauh, Laura Weidinger, Martin Chadwick, Phoebe Thacker, Lucy Campbell-Gillingham, Jonathan Uesato, Po-Sen Huang, Ramona Comanescu, Fan Yang, Abigail See, Sumanth Dathathri, Rory Greig, Charlie Chen, Doug Fritz, Jaume Sanchez Elias, Richard Green, Soňa Mokrá, Nicholas Fernando, Boxi Wu, Rachel Foley, Susannah Young, Iason Gabriel, William Isaac, John Mellor, Demis Hassabis, Koray Kavukcuoglu, Lisa Anne Hendricks, Geoffrey Irving* 
 
 ### [Fine-tuning Strategy](#fine-tuning-strategy)
 
@@ -59,34 +77,16 @@ This is a collection of research papers for **Self-Correcting Large Language Mod
 6. **BERTTune: Fine-Tuning Neural Machine Translation with BERTScore.** Annual Meeting of the Association for Computational Linguistics (ACL), 2021. [paper](https://arxiv.org/pdf/2106.02208.pdf)
 
     *Inigo Jauregi Unanue, Jacob Parnell, Massimo Piccardi*
-
-### [RLHF Strategy](#rlhf-strategy)
-
-1. **Training Language Models to Follow Instructions with Human Feedback.** Advances in Neural Information Processing Systems (NeurIPS), 2022. [paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/b1efde53be364a73914f58805a001731-Paper-Conference.pdf)
     
-    *Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul F. Christiano, Jan Leike, Ryan Lowe* 
-
-2. **Fine-Grained Human Feedback Gives Better Rewards for Language Model Training.** arxiv, 2023. [paper](https://arxiv.org/pdf/2306.01693.pdf)
-    
-    *Zeqiu Wu, Yushi Hu, Weijia Shi, Nouha Dziri, Alane Suhr, Prithviraj Ammanabrolu, Noah A. Smith, Mari Ostendorf, Hannaneh Hajishirzi* 
-
-3. **Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback.** arxiv, 2022. [paper](https://arxiv.org/pdf/2204.05862.pdf)
-
-    *Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, Saurav Kadavath, Jackson Kernion, Tom Conerly, Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt, Neel Nanda, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCandlish, Chris Olah, Ben Mann, Jared Kaplan*
-
-4. **The Capacity for Moral Self-Correction in Large Language Models.** arxiv, 2023. [paper](https://arxiv.org/pdf/2302.07459.pdf)
-    
-    *Deep Ganguli, Amanda Askell, Nicholas Schiefer, Thomas I. Liao, Kamilė Lukošiūtė, Anna Chen, Anna Goldie, Azalia Mirhoseini, Catherine Olsson, Danny Hernandez, Dawn Drain, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jackson Kernion, Jamie Kerr, Jared Mueller, Joshua Landau, Kamal Ndousse, Karina Nguyen, Liane Lovitt, Michael Sellitto, Nelson Elhage, Noemi Mercado, Nova DasSarma, Oliver Rausch, Robert Lasenby, Robin Larson, Sam Ringer, Sandipan Kundu, Saurav Kadavath, Scott Johnston, Shauna Kravec, Sheer El Showk, Tamera Lanham, Timothy Telleen-Lawton, Tom Henighan, Tristan Hume, Yuntao Bai, Zac Hatfield-Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, Christopher Olah, Jack Clark, Samuel R. Bowman, Jared Kaplan* 
-
-5. **Improving Alignment of Dialogue Agents via Targeted Human Judgments.** arxiv, 2022. [paper](https://arxiv.org/pdf/2209.14375.pdf)
-    
-    *Amelia Glaese, Nat McAleese, Maja Trębacz, John Aslanides, Vlad Firoiu, Timo Ewalds, Maribeth Rauh, Laura Weidinger, Martin Chadwick, Phoebe Thacker, Lucy Campbell-Gillingham, Jonathan Uesato, Po-Sen Huang, Ramona Comanescu, Fan Yang, Abigail See, Sumanth Dathathri, Rory Greig, Charlie Chen, Doug Fritz, Jaume Sanchez Elias, Richard Green, Soňa Mokrá, Nicholas Fernando, Boxi Wu, Rachel Foley, Susannah Young, Iason Gabriel, William Isaac, John Mellor, Demis Hassabis, Koray Kavukcuoglu, Lisa Anne Hendricks, Geoffrey Irving* 
-
 ### [Self-Training Strategy](#self-training-strategy)
 
 1. **STaR: Bootstrapping Reasoning With Reasoning.** Advances in Neural Information Processing Systems (NeurIPS), 2022. [paper](https://openreview.net/pdf?id=_3ELRdg2sgI)
 
    *Eric Zelikman, Yuhuai Wu, Jesse Mu, Noah Goodman*
+
+2. **Self-Instruct: Aligning Language Models with Self-Generated Instructions.** Annual Meeting of the Association for Computational Linguistics (ACL), 2023. [paper](https://aclanthology.org/2023.acl-long.754.pdf)
+    
+    *Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi* 
 
 3. **Constitutional AI: Harmlessness from AI Feedback.** arxiv, 2022. [paper](https://arxiv.org/pdf/2212.08073.pdf)
     
@@ -189,7 +189,7 @@ This is a collection of research papers for **Self-Correcting Large Language Mod
 
 ## [Post-hoc Correction](#content)
 
-### [Post-hoc Strategy](#post-hoc-strategy)
+### [Self-Refine Strategy](#self-refine-strategy)
 
 1. **Self-Refine: Iterative Refinement with Self-Feedback.** arxiv, 2023. [paper](https://arxiv.org/pdf/2303.17651.pdf)
 
