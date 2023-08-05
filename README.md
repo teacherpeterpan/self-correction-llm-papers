@@ -338,8 +338,29 @@ This is a collection of research papers for **Self-Correcting Large Language Mod
 </a>
 -->
 
-[<img src="https://github.com/teacherpeterpan.png" width="60px;"/><br /><sub><a href="https://github.com/teacherpeterpan">Liangming Pan</a></sub>](https://github.com/teacherpeterpan/self-correction-llm-papers)
-[<img src="https://github.com/XinyuanLu00.png" width="60px;"/><br /><sub><a href="https://github.com/XinyuanLu00">Xinyuan Lu</a></sub>](https://github.com/XinyuanLu00/self-correction-llm-papers)
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="120px">
+          <a href="http://www.liangmingpan.com/">
+              <img src="https://github.com/teacherpeterpan.png" width="80px;" alt="Liangming Pan"/>
+              <br />
+              <sub><b>Liangming Pan</b></sub>
+          </a>
+      </td>
+      <td align="center" valign="top" width="120px">
+          <a href="https://xinyuanlu00.github.io/">
+              <img src="https://github.com/XinyuanLu00.png" width="80px;" alt="Xinyuan Lu"/>
+              <br />
+              <sub><b>Xinyuan Lu</b></sub>
+          </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Acknowledgement
 -  There are cases where we miss important works in this field, please contribute to this repo! Thanks for your efforts in advance.
