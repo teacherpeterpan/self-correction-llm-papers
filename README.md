@@ -77,14 +77,14 @@ This is a collection of research papers for **Self-Correcting Large Language Mod
 6. **BERTTune: Fine-Tuning Neural Machine Translation with BERTScore.** Annual Meeting of the Association for Computational Linguistics (ACL), 2021. [paper](https://arxiv.org/pdf/2106.02208.pdf)
 
     *Inigo Jauregi Unanue, Jacob Parnell, Massimo Piccardi*
-    
+
 ### [Self-Training Strategy](#self-training-strategy)
 
 1. **STaR: Bootstrapping Reasoning With Reasoning.** Advances in Neural Information Processing Systems (NeurIPS), 2022. [paper](https://openreview.net/pdf?id=_3ELRdg2sgI)
 
    *Eric Zelikman, Yuhuai Wu, Jesse Mu, Noah Goodman*
 
-2. **Self-Instruct: Aligning Language Models with Self-Generated Instructions.** Annual Meeting of the Association for Computational Linguistics (ACL), 2023. [paper](https://aclanthology.org/2023.acl-long.754.pdf)
+2. **SELF-INSTRUCT: Aligning Language Models with Self-Generated Instructions.** Annual Meeting of the Association for Computational Linguistics (ACL), 2023. [paper](https://aclanthology.org/2023.acl-long.754.pdf)
     
     *Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi* 
 
