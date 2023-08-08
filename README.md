@@ -7,6 +7,8 @@
 
 This is a collection of research papers for **Self-Correcting Large Language Models with Automated Feedback.**
 
+Our survey paper: [Automatically Correcting Large Language Models: Surveying the landscape of diverse self-correction strategies](https://arxiv.org/abs/2308.03188). Liangming Pan, Michael Saxon, Wenda Xu, Deepak Nathani, Xinyi Wang, William Yang Wang
+
 ## [Content](#content)
 
 <table>
