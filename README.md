@@ -314,6 +314,10 @@ Our survey paper: [Automatically Correcting Large Language Models: Surveying the
    
     *Sean Welleck, Ximing Lu, Peter West, Faeze Brahman, Tianxiao Shen, Daniel Khashabi, Yejin Choi* 
 
+22. **MAF: Multi-Aspect Feedback for Improving Reasoning in Large Language Models.** Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. [paper](https://arxiv.org/abs/2310.12426)
+
+    *Deepak Nathani, David Wang, Liangming Pan, William Yang Wang*
+
 
 ### [Model-Debate Strategy](#model-debate-strategy)
 
