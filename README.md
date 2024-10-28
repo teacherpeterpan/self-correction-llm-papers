@@ -227,6 +227,10 @@ Our survey paper: [Automatically Correcting Large Language Models: Surveying the
    
    *Potsawee Manakul, Adian Liusie, Mark J. F. Gales*
 
+9. **CLOVA: A Closed-LOop Visual Assistant with Tool Usage and Update** arxiv, 2023 [paper](https://arxiv.org/abs/2312.10908)
+
+    *Zhi Gao, Yuntao Du, Xintong Zhang, Xiaojian Ma, Wenjuan Han, Song-Chun Zhu, Qing Li*
+
 
 ### [External Feedback Strategy](#external-feedback-strategy)
 
@@ -318,10 +322,13 @@ Our survey paper: [Automatically Correcting Large Language Models: Surveying the
 
     *Deepak Nathani, David Wang, Liangming Pan, William Yang Wang*
 
-23. **LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints** Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024. [paper](https://arxiv.org/abs/2410.06458)
+23. **CLOVA: A Closed-LOop Visual Assistant with Tool Usage and Update** arxiv, 2023 [paper](https://arxiv.org/abs/2312.10908)
+
+    *Zhi Gao, Yuntao Du, Xintong Zhang, Xiaojian Ma, Wenjuan Han, Song-Chun Zhu, Qing Li*
+
+24. **LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints** Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024. [paper](https://arxiv.org/abs/2410.06458)
 
     *Thomas Palmeira Ferraz, Kartik Mehta, Yu-Hsiang Lin, Haw-Shiuan Chang, Shereen Oraby, Sijia Liu, Vivek Subramanian, Tagyoung Chung, Mohit Bansal, Nanyun Peng*
-
 
 ### [Model-Debate Strategy](#model-debate-strategy)
 
@@ -340,6 +347,7 @@ Our survey paper: [Automatically Correcting Large Language Models: Surveying the
 4. **PRD: Peer Rank and Discussion Improve Large Language Model-based Evaluations.**  arxiv, 2023. [paper](https://arxiv.org/pdf/2307.02762.pdf)
    
    *Ruosen Li, Teerth Patel, Xinya Du*
+
 
 ## Contribution
 ### Contributors
