@@ -326,6 +326,10 @@ Our survey paper: [Automatically Correcting Large Language Models: Surveying the
 
     *Zhi Gao, Yuntao Du, Xintong Zhang, Xiaojian Ma, Wenjuan Han, Song-Chun Zhu, Qing Li*
 
+24. **LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints** Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024. [paper](https://arxiv.org/abs/2410.06458)
+
+    *Thomas Palmeira Ferraz, Kartik Mehta, Yu-Hsiang Lin, Haw-Shiuan Chang, Shereen Oraby, Sijia Liu, Vivek Subramanian, Tagyoung Chung, Mohit Bansal, Nanyun Peng*
+
 ### [Model-Debate Strategy](#model-debate-strategy)
 
 1. **Improving Factuality and Reasoning in Language Models through Multiagent Debate.** arxiv, 2023. [paper](https://arxiv.org/pdf/2305.14325.pdf)
