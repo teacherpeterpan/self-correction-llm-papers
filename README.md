@@ -318,6 +318,10 @@ Our survey paper: [Automatically Correcting Large Language Models: Surveying the
 
     *Deepak Nathani, David Wang, Liangming Pan, William Yang Wang*
 
+23. **LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints** Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024. [paper](https://arxiv.org/abs/2410.06458)
+
+    *Thomas Palmeira Ferraz, Kartik Mehta, Yu-Hsiang Lin, Haw-Shiuan Chang, Shereen Oraby, Sijia Liu, Vivek Subramanian, Tagyoung Chung, Mohit Bansal, Nanyun Peng*
+
 
 ### [Model-Debate Strategy](#model-debate-strategy)
 
