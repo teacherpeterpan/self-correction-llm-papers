@@ -58,27 +58,31 @@ Our survey paper: [Automatically Correcting Large Language Models: Surveying the
 
 ### [Fine-tuning Strategy](#fine-tuning-strategy)
 
-1. **Training Language Models with Language Feedback at Scale.** arxiv, 2023. [paper](https://arxiv.org/pdf/2303.16755.pdf)
+1. **Embedding Self-Correction as an Inherent Ability in Large Language Models for Enhanced Mathematical Reasoning.** arxiv, 2024. [paper](https://arxiv.org/pdf/2410.10735.pdf)
+    
+    *Kuofeng Gao, Huanqia Cai, Qingyao Shuai, Dihong Gong, Zhifeng Li* 
+
+2. **Training Language Models with Language Feedback at Scale.** arxiv, 2023. [paper](https://arxiv.org/pdf/2303.16755.pdf)
     
     *Jérémy Scheurer, Jon Ander Campos, Tomasz Korbak, Jun Shern Chan, Angelica Chen, Kyunghyun Cho, Ethan Perez* 
 
-2. **Continually Improving Extractive QA via Human Feedback.** arxiv, 2023. [paper](https://arxiv.org/pdf/2305.12473.pdf)
+3. **Continually Improving Extractive QA via Human Feedback.** arxiv, 2023. [paper](https://arxiv.org/pdf/2305.12473.pdf)
     
     *Ge Gao, Hung-Ting Chen, Yoav Artzi, Eunsol Choi* 
 
-3. **Chain of Hindsight Aligns Language Models with Feedback.** arxiv, 2023. [paper](https://arxiv.org/pdf/2302.02676.pdf)
+4. **Chain of Hindsight Aligns Language Models with Feedback.** arxiv, 2023. [paper](https://arxiv.org/pdf/2302.02676.pdf)
 
     *Hao Liu, Carmelo Sferrazza, Pieter Abbeel*
 
-4. **QUARK: Controllable Text Generation with Reinforced Unlearning.** Advances in Neural Information Processing Systems (NeurIPS), 2022. [paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/b125999bde7e80910cbdbd323087df8f-Paper-Conference.pdf)
+5. **QUARK: Controllable Text Generation with Reinforced Unlearning.** Advances in Neural Information Processing Systems (NeurIPS), 2022. [paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/b125999bde7e80910cbdbd323087df8f-Paper-Conference.pdf)
     
     *Ximing Lu, Sean Welleck, Jack Hessel, Liwei Jiang, Lianhui Qin, Peter West, Prithviraj Ammanabrolu, Yejin Choi* 
  
-5. **SimCLS: A Simple Framework for Contrastive Learning of Abstractive Summarization.** Annual Meeting of the Association for Computational Linguistics (ACL), 2021. [paper](https://aclanthology.org/2021.acl-short.135.pdf)
+6. **SimCLS: A Simple Framework for Contrastive Learning of Abstractive Summarization.** Annual Meeting of the Association for Computational Linguistics (ACL), 2021. [paper](https://aclanthology.org/2021.acl-short.135.pdf)
 
     *Yixin Liu, Pengfei Liu*
 
-6. **BERTTune: Fine-Tuning Neural Machine Translation with BERTScore.** Annual Meeting of the Association for Computational Linguistics (ACL), 2021. [paper](https://arxiv.org/pdf/2106.02208.pdf)
+7. **BERTTune: Fine-Tuning Neural Machine Translation with BERTScore.** Annual Meeting of the Association for Computational Linguistics (ACL), 2021. [paper](https://arxiv.org/pdf/2106.02208.pdf)
 
     *Inigo Jauregi Unanue, Jacob Parnell, Massimo Piccardi*
 
