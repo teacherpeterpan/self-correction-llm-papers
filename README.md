@@ -330,6 +330,10 @@ Our survey paper: [Automatically Correcting Large Language Models: Surveying the
 
     *Thomas Palmeira Ferraz, Kartik Mehta, Yu-Hsiang Lin, Haw-Shiuan Chang, Shereen Oraby, Sijia Liu, Vivek Subramanian, Tagyoung Chung, Mohit Bansal, Nanyun Peng*
 
+25. **Translate-and-Revise: Boosting Large Language Models for Constrained Translation.** Chinese National Conference on Computational Linguistics (CCL), 2024. [paper](https://aclanthology.org/2024.ccl-1.82.pdf)
+
+    *Pengcheng Huang, Yongyu Mu, Yuzhang Wu, Bei Li, Chunyang Xiao, Tong Xiao, Jingbo Zhu*
+
 ### [Model-Debate Strategy](#model-debate-strategy)
 
 1. **Improving Factuality and Reasoning in Language Models through Multiagent Debate.** arxiv, 2023. [paper](https://arxiv.org/pdf/2305.14325.pdf)
